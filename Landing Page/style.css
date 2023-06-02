@@ -1,0 +1,91 @@
+body{
+    background: url(imagens/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: left;
+    margin: 0px 80px 0px 0px;
+    margin-left: 80px;
+    font-family: 'Kanit', serif;
+}
+h1{
+    font-size: 100px;
+    padding-top: 80px;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+span {color: red;
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+li{
+    display: inline;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 35px;
+}
+    ul li a:hover {
+    opacity: 0.5;
+}
+.segundo {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sobre{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+.sobre:hover{
+     opacity: 0.8;
+}
+.botao{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+.botao:hover{
+    opacity: 0.8;
+}
+@media (max-width: 640px){
+    body {
+        background: black;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    body {
+        background: black;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px){
+    body {
+        background: black;
+        text-align: center;
+    }
+}
+@media (max-width: 1280px){
+    body {
+        background: black;
+        text-align: center;
+    }
+}
+@media (max-width: 1536px){
+    body {
+        background: black;
+        text-align: center;
+    }
+}
